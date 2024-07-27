@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#F0F8FF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/quoteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Random Quotes!"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:textColor="#333333"
+        android:background="@drawable/textview_background"
+        android:shadowColor="#AAAAAA"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/newQuoteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Quote"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_background"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/shareQuoteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Quote"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_background"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
